@@ -2,7 +2,7 @@ class App < HyperComponent
   include Hyperstack::Router
   render do
     DIV do
-      'App'
+      'Now is the time for all good men'
       # define routes using the Route psuedo component.  Examples:
       # Route('/foo', mounts: Foo)                : match the path beginning with /foo and mount component Foo here
       # Route('/foo') { Foo(...) }                : display the contents of the block
@@ -12,4 +12,3 @@ class App < HyperComponent
     end
   end
 end
-
