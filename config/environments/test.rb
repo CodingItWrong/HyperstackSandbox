@@ -57,4 +57,7 @@ Rails.application.configure do
 
   # Annotate rendered view with file names.
   # config.action_view.annotate_rendered_view_with_filenames = true
+
+  # added by hyperstack installer
+  config.assets.paths << Rails.root.join('public', 'packs-test', 'js').to_s
 end
